@@ -1,6 +1,6 @@
 # MARIJUANA
 
->Marijuana is backdoor built in PHP language with stealth mode that can bypass server security.
+Marijuana is backdoor built in PHP language with stealth mode that can bypass server security.
 
 # Features
 - UPLOAD (MULTIPLE)
