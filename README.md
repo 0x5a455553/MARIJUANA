@@ -14,10 +14,10 @@ MARIJUANA web shell is backdoor build in PHP language with stealth mode that can
 - REQUESTS
 - FILE DOWNLOAD
 - RENAME
-- B64 ENCODE DECODE (JQUERY)
+- BASE64 ENCODE DECODE (JQUERY)
 - CHMOD
-- CHANGE TIME
-- NEW FILE AND DIR
+- CHANGE TIMESTAMP
+- CREATE NEW FILE AND DIR
 
 ## Preview
 ![Screen Shot](https://raw.githubusercontent.com/0x5a455553/MARIJUANA/master/MARIJUANA.png)
